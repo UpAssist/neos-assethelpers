@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "upassist/neos-assethelpers",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "UpAssist\\Neos\\AssetHelpers\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "UpAssist.Neos.AssetHelpers"
+        }
+    }
+}

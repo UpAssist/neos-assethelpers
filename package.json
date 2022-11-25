@@ -1,0 +1,13 @@
+{
+  "name": "upassist_neos-assethelpers",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Henjo Hoeksma <henjo@upassist.com>",
+  "license": "MIT",
+    "private": true,
+    "scripts": {
+        "release:patch": "npx standard-version -t '' -r patch && git push --follow-tags origin main",
+        "release:minor": "npx standard-version -t '' -r minor && git push --follow-tags origin main",
+        "release:major": "npx standard-version -t '' -r major && git push --follow-tags origin main"
+    }
+}
